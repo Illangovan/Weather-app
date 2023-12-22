@@ -10,7 +10,7 @@
 {
      justify-content:space-between;
      display:inline;
-      margin-left:20%;
+      margin-left:10%;
      padding-top:5%;
      margin-top: 50px;
 }
@@ -23,7 +23,7 @@
 }
 .search input{
         height:45px;
-        width:35%;
+        width:45%;
         border: 0;
         padding-left:10px;
         outline: 0;
