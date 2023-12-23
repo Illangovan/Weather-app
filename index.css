@@ -1,10 +1,20 @@
+#navbar
+{
+     position: sticky;
+     background-color:black;
+     color: white;
+     position: sticky;
+}
+#navbar a{
+     color:white;
+     font-family: bold;
+}
 .con{
      background: linear-gradient(135deg,#a510e0,#0acde7);
      padding: 0;
      margin: 0;
      width: 100%;
-     height: 600px;
-     position: sticky;
+     height: 630px;
 }
 .search
 {
