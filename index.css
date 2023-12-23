@@ -34,9 +34,17 @@
 .search button
 {
      border: 0;
-     border-radius:60%;
+     outline: 0;
+     border-radius:50%;
      display: inline;
+     width: 45px;
+     height: 45px;
      margin-left: 20px;
+     cursor: pointer;
+}
+.search img
+{
+     width: 25px;
 }
 .weather
 {

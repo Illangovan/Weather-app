@@ -56,6 +56,7 @@
     const apiUrl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
     const sbox=document.querySelector(".search input");
     const sbtn=document.querySelector(".search button");
+    const Weather=document.querySelector(".img-fluid");
     async function update(city)
     {
       const response=await fetch(apiUrl + city + ` &appid=${apiKey}`);
@@ -65,6 +66,34 @@
     document.querySelector(".w").innerHTML=data.wind.speed+"Km/h";
     document.querySelector(".city").innerHTML=data.name;
     document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°c";
+    if(data.weather[0].main=="Clouds")
+    {
+      Weather.src="Images/clouds.png";
+    }
+    else if(data.weather[0].main=="Rain")
+    {
+      Weather.src="Images/rain.png";
+    }
+    else if(data.weather[0].main=="Clear")
+    {
+      Weather.src="Images/clear.png";
+    }
+    else if(data.weather[0].main=="Drizzle")
+    {
+      Weather.src="Images/drizzle.png";
+    }
+    else if(data.weather[0].main=="Mist")
+    {
+      Weather.src="Images/mist.png";
+    }
+    else if(data.weather[0].main=="Snow")
+    {
+      Weather.src="Images/snow.png";
+    }
+    if(data.weather[0].main=="Wind")
+    {
+      Weather.src="Images/wind.png";
+    }
     }
     sbtn.addEventListener("click",()=>{
       update(sbox.value);
