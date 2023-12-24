@@ -16,9 +16,9 @@ display: block;
 }
 form
 {
-    margin-left: 25%;
+    margin-left: 18%;
     margin-top: 10%;
-    width:18rem;
+    width:22rem;
     height: 24rem;
     display: flex;
     flex-direction: column;
