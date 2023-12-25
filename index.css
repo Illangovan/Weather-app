@@ -12,6 +12,7 @@ body{
 #navbar a{
      color:white;
      font-family: bold;
+     padding-left: auto;
 }
 .con{
      background: linear-gradient(135deg,#a510e0,#0acde7);

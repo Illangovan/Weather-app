@@ -15,7 +15,7 @@ form
 {
     margin-top: 10%;
     width:250px;
-    margin-left:15%;
+    margin-left:18%;
     height: 24rem;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ textarea
 }
 button{
     width: 40%;
-    margin-left: 20%;
+    margin-left: 25%;
     background: transparent;
     padding: 10px 30px;
     color: white;
@@ -78,7 +78,7 @@ button:hover{
      height:70px;
      background-color: black;
      padding-left:5%;
-     padding-top:20px;
+     padding-top:25px;
     margin:0;
     display: block;
     align-items: baseline;
