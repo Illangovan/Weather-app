@@ -14,8 +14,8 @@ background: linear-gradient(to right,#3f5efb,#fc466b);
 form
 {
     margin-top: 10%;
-    width:300px;
-    margin-left:17%;
+    width:250px;
+    margin-left:15%;
     height: 24rem;
     display: flex;
     flex-direction: column;
